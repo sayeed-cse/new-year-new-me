@@ -42,7 +42,8 @@
 .text-dark {
     color: #444343;
 }
-.text-green{
+
+.text-green {
     color: green;
 }
 
@@ -68,6 +69,7 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
+    margin-bottom: 24px;
 }
 
 /* section-failure  */
@@ -82,12 +84,62 @@
 }
 
 
-.section-failure h3{
-    margin-bottom: 24px;
-}
-.section-failure p{
+
+
+.section-failure p {
     margin-bottom: 16px;
 }
+
 .section-failure ul {
     list-style: none;
+}
+
+/*  section-myplan */
+
+.section-myplan {
+    text-align: center;
+    margin: 130px auto;
+
+}
+
+.myplan-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.myplan-contents h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 24px;
+    line-height: 35px;
+
+}
+
+.myplan-contents p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #737272;
+    margin-top: 16px;
+}
+
+/* section mindset */
+
+.section-mindset {
+    background-image: linear-gradient(to right, rgba(65, 105, 225, 0.74) 0%, rgba(15, 13, 13, 0.507) 100%), url('../images/watch.png'); 
+    background-size: cover;
+    margin-bottom: 130px;
+    border-radius: 5px;
+
+}
+
+.mindset-content {
+    width: 50%;
+    padding: 60px 64px;
+}
+
+.mindset-content .section-title {
+    color: #ffffff;
+    margin-bottom: 24px;
 }
