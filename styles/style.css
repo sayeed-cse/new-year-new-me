@@ -47,6 +47,7 @@
     color: green;
 }
 
+
 .button-primary {
     font-size: 20px;
     font-weight: 600;
@@ -127,10 +128,10 @@
 /* section mindset */
 
 .section-mindset {
-    background-image: linear-gradient(to right, rgba(65, 105, 225, 0.74) 0%, rgba(15, 13, 13, 0.507) 100%), url('../images/watch.png'); 
+    background-image: linear-gradient(to right, rgba(65, 105, 225, 0.74) 0%, rgba(15, 13, 13, 0.507) 100%), url('../images/watch.png');
     background-size: cover;
     margin-bottom: 130px;
-    border-radius: 5px;
+    border-radius: 8px;
 
 }
 
@@ -142,4 +143,89 @@
 .mindset-content .section-title {
     color: #ffffff;
     margin-bottom: 24px;
+}
+
+/* my mission section*/
+.mission-section {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.mission-section h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+
+.my-mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-mission-card {
+    width: 40%;
+    padding: 35px 20px;
+    margin-right: 100px;
+    background-color: rgba(215, 237, 245, 0.63);
+    box-shadow: 0px 0px 20px rgb(141, 95, 95);
+    border-radius: 8px;
+}
+
+.my-mission-card p {
+    margin-top: 10px;
+    border-top: 1px solid gray;
+    text-align: justify;
+}
+
+/* footer section  */
+footer {
+    max-width: 1600px;
+    margin: 0px auto;
+    background-color: #151414;
+}
+
+.footer-section {
+    color: #ffffff;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+}
+
+.footer-left .section-title {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.footer-left .text-description {
+    margin-bottom: 10px;
+}
+
+.footer-left img {
+    margin-right: 17px;
+    margin-top: 15px;
+}
+
+.sub-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.footer-right input[type=email] {
+    background-color: #151414;
+    font-size: 18px;
+    padding: 15px 15px;
+    width: 300px;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.footer-right input[type=submit] {
+    background-color: #005FAC;
+    color: #ffffff;
 }
